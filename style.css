@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  background-color: rgb(75, 194, 134);
+  font-family: "Crimson Text", serif;
+  font-size: 1.5rem;
+  font-style: bold;
+}
+
+.box {
+  text-align: center;
+  background-color: rgb(175, 192, 214);
+  padding: 1rem;
+}
+table,
+td,
+th {
+  border: 1px, solid, black;
+}
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+th {
+  height: 40px;
+}
+a {
+  color: rgb(131, 121, 139);
+}
+a:hover {
+  color: rgb(88, 78, 131);
+}
+
+.div2 {
+  background-color: rgb(187, 166, 183);
+  padding: 1rem;
+}
+
+.div3 {
+  background-color: rgb(139, 221, 171);
+  padding: 30px;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  width: 120px;
+  height: 120px;
+  filter: grayscale(40%);
+  border-radius: 20%;
+}
+img:hover {
+  filter: grayscale(10%);
+}
